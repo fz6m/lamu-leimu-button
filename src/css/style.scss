@@ -1,0 +1,35 @@
+@media (max-width: 860px) {
+    .sidebar_wo {
+        display: none;
+    }
+}
+
+.sidebar_wo {
+    position: fixed;
+    bottom: 0;
+    z-index: 1000;
+    line-height: 0;
+    cursor: url(https://cdn.jsdelivr.net/gh/fz6m/Private-web@2.0.7/image/bottom/lm.cur), pointer;
+}
+
+
+#lamu {
+    right: 0;
+    transition: all .3s ease-in-out;
+    transform: translate(7px, 7px);
+
+    &:hover {
+        transform: translate(0, 0);
+    }
+}
+
+
+#leimu {
+    left: 0;
+    transition: all .3s ease-in-out;
+    transform: translate(-7px, 7px);
+
+    &:hover {
+        transform: translate(0, 0);
+    }
+}
