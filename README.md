@@ -10,7 +10,7 @@
 <body>
 
     <!-- 在页面最后引入 -->
-    <script src="https://cdn.jsdelivr.net/gh/fz6m/lamu-leimu-button@1.3/dist/lamu-leimu.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fz6m/lamu-leimu-button@1.2/dist/lamu-leimu.min.js"></script>
 
 </body>
 ```
